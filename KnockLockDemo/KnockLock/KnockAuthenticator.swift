@@ -6,11 +6,12 @@
 //  Copyright © 2009 Steve Hoefer. All rights reserved.
 //
 //  ********** ATTENTION! **********
-//      Read License.txt first!
+//     Read LICENSE file first!
 //  ********************************
 //
 //  Rewrote for iOS by Sung-ho Lee.
 //
+
 
 import Foundation
 
