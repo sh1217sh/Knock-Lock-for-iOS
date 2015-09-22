@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5D091C21B82203C00E78733 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D091C11B82203C00E78733 /* AppDelegate.swift */; };
+		A5D091C41B82203C00E78733 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D091C31B82203C00E78733 /* ViewController.swift */; };
+		A5D091C71B82203C00E78733 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5D091C51B82203C00E78733 /* Main.storyboard */; };
+		A5D091C91B82203C00E78733 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5D091C81B82203C00E78733 /* Assets.xcassets */; };
+		A5D091CC1B82203C00E78733 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5D091CA1B82203C00E78733 /* LaunchScreen.storyboard */; };
+		A5D091E81B8220A700E78733 /* KnockLockStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5D091E21B8220A700E78733 /* KnockLockStoryboard.storyboard */; };
+		A5D091E91B8220A700E78733 /* KnockAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D091E41B8220A700E78733 /* KnockAuthenticator.swift */; };
+		A5D091EA1B8220A700E78733 /* KnockCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D091E51B8220A700E78733 /* KnockCode.swift */; };
+		A5D091EB1B8220A700E78733 /* KnockDetectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D091E61B8220A700E78733 /* KnockDetectorViewController.swift */; };
+		A5D091EC1B8220A700E78733 /* KnockLockAsset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5D091E71B8220A700E78733 /* KnockLockAsset.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A5D091BE1B82203C00E78733 /* KnockLockDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KnockLockDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5D091C11B82203C00E78733 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5D091C31B82203C00E78733 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A5D091C61B82203C00E78733 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5D091C81B82203C00E78733 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5D091CB1B82203C00E78733 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5D091CD1B82203C00E78733 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5D091E31B8220A700E78733 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/KnockLockStoryboard.storyboard; sourceTree = "<group>"; };
+		A5D091E41B8220A700E78733 /* KnockAuthenticator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KnockAuthenticator.swift; sourceTree = "<group>"; };
+		A5D091E51B8220A700E78733 /* KnockCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KnockCode.swift; sourceTree = "<group>"; };
+		A5D091E61B8220A700E78733 /* KnockDetectorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KnockDetectorViewController.swift; sourceTree = "<group>"; };
+		A5D091E71B8220A700E78733 /* KnockLockAsset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = KnockLockAsset.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5D091BB1B82203C00E78733 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5D091B51B82203C00E78733 = {
+			isa = PBXGroup;
+			children = (
+				A5D091C01B82203C00E78733 /* KnockLockDemo */,
+				A5D091BF1B82203C00E78733 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5D091BF1B82203C00E78733 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5D091BE1B82203C00E78733 /* KnockLockDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5D091C01B82203C00E78733 /* KnockLockDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A5D091E11B8220A700E78733 /* KnockLock */,
+				A5D091C11B82203C00E78733 /* AppDelegate.swift */,
+				A5D091C31B82203C00E78733 /* ViewController.swift */,
+				A5D091C51B82203C00E78733 /* Main.storyboard */,
+				A5D091C81B82203C00E78733 /* Assets.xcassets */,
+				A5D091CA1B82203C00E78733 /* LaunchScreen.storyboard */,
+				A5D091CD1B82203C00E78733 /* Info.plist */,
+			);
+			path = KnockLockDemo;
+			sourceTree = "<group>";
+		};
+		A5D091E11B8220A700E78733 /* KnockLock */ = {
+			isa = PBXGroup;
+			children = (
+				A5D091E21B8220A700E78733 /* KnockLockStoryboard.storyboard */,
+				A5D091E41B8220A700E78733 /* KnockAuthenticator.swift */,
+				A5D091E51B8220A700E78733 /* KnockCode.swift */,
+				A5D091E61B8220A700E78733 /* KnockDetectorViewController.swift */,
+				A5D091E71B8220A700E78733 /* KnockLockAsset.xcassets */,
+			);
+			path = KnockLock;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5D091BD1B82203C00E78733 /* KnockLockDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5D091D01B82203C00E78733 /* Build configuration list for PBXNativeTarget "KnockLockDemo" */;
+			buildPhases = (
+				A5D091BA1B82203C00E78733 /* Sources */,
+				A5D091BB1B82203C00E78733 /* Frameworks */,
+				A5D091BC1B82203C00E78733 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KnockLockDemo;
+			productName = KnockLockDemo;
+			productReference = A5D091BE1B82203C00E78733 /* KnockLockDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5D091B61B82203C00E78733 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Vita Dev Team";
+				TargetAttributes = {
+					A5D091BD1B82203C00E78733 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = A5D091B91B82203C00E78733 /* Build configuration list for PBXProject "KnockLockDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5D091B51B82203C00E78733;
+			productRefGroup = A5D091BF1B82203C00E78733 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5D091BD1B82203C00E78733 /* KnockLockDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5D091BC1B82203C00E78733 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5D091CC1B82203C00E78733 /* LaunchScreen.storyboard in Resources */,
+				A5D091E81B8220A700E78733 /* KnockLockStoryboard.storyboard in Resources */,
+				A5D091C91B82203C00E78733 /* Assets.xcassets in Resources */,
+				A5D091EC1B8220A700E78733 /* KnockLockAsset.xcassets in Resources */,
+				A5D091C71B82203C00E78733 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5D091BA1B82203C00E78733 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5D091E91B8220A700E78733 /* KnockAuthenticator.swift in Sources */,
+				A5D091C41B82203C00E78733 /* ViewController.swift in Sources */,
+				A5D091C21B82203C00E78733 /* AppDelegate.swift in Sources */,
+				A5D091EB1B8220A700E78733 /* KnockDetectorViewController.swift in Sources */,
+				A5D091EA1B8220A700E78733 /* KnockCode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A5D091C51B82203C00E78733 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5D091C61B82203C00E78733 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5D091CA1B82203C00E78733 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5D091CB1B82203C00E78733 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A5D091E21B8220A700E78733 /* KnockLockStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5D091E31B8220A700E78733 /* Base */,
+			);
+			name = KnockLockStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5D091CE1B82203C00E78733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5D091CF1B82203C00E78733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5D091D11B82203C00E78733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KnockLockDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitadevteam.KnockLockDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A5D091D21B82203C00E78733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KnockLockDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitadevteam.KnockLockDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5D091B91B82203C00E78733 /* Build configuration list for PBXProject "KnockLockDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5D091CE1B82203C00E78733 /* Debug */,
+				A5D091CF1B82203C00E78733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5D091D01B82203C00E78733 /* Build configuration list for PBXNativeTarget "KnockLockDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5D091D11B82203C00E78733 /* Debug */,
+				A5D091D21B82203C00E78733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5D091B61B82203C00E78733 /* Project object */;
+}

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8164.2" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8135.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="KnockLockDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Now you're in your app." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="13J-Zs-tYH">
+                                <rect key="frame" x="210" y="137" width="180" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="lqU-QV-j1b"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.46666666670000001" green="0.46666666670000001" blue="0.46666666670000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="UnlockedLock" translatesAutoresizingMaskIntoConstraints="NO" id="8gh-g2-7gi">
+                                <rect key="frame" x="264" y="258" width="72" height="72"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="72" id="0RA-QE-jyg"/>
+                                    <constraint firstAttribute="height" constant="72" id="2ja-dU-psL"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UNLOCKED" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="umZ-vq-cw8">
+                                <rect key="frame" x="232" y="97" width="137" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="Ywe-a8-7nI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ttu-II-ix4">
+                                <rect key="frame" x="280" y="550" width="40" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Gzo-hP-sDz"/>
+                                </constraints>
+                                <state key="normal" title="LOCK"/>
+                                <connections>
+                                    <action selector="lock" destination="BYZ-38-t0r" eventType="touchUpInside" id="J1d-Qf-Pvc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="umZ-vq-cw8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0dU-Gl-m0s"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Ttu-II-ix4" secondAttribute="bottom" constant="20" id="5es-Qj-tUZ"/>
+                            <constraint firstItem="umZ-vq-cw8" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="77" id="ImE-CE-8a0"/>
+                            <constraint firstItem="8gh-g2-7gi" firstAttribute="top" secondItem="13J-Zs-tYH" secondAttribute="bottom" constant="100" id="JsY-J6-rmu"/>
+                            <constraint firstItem="Ttu-II-ix4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="K7d-1W-tOu"/>
+                            <constraint firstItem="13J-Zs-tYH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NO8-5m-cyw"/>
+                            <constraint firstItem="13J-Zs-tYH" firstAttribute="top" secondItem="umZ-vq-cw8" secondAttribute="bottom" constant="8" id="lOD-66-TWc"/>
+                            <constraint firstItem="8gh-g2-7gi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rL2-QK-USF"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="245" y="337"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="UnlockedLock" width="64" height="64"/>
+    </resources>
+</document>

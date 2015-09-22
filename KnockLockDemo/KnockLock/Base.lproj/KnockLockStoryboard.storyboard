@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8164.2" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8135.1"/>
+    </dependencies>
+    <scenes>
+        <!--Knock Detector View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="KnockDetectorViewController" id="BYZ-38-t0r" customClass="KnockDetectorViewController" customModule="KnockLockDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FingerTap" translatesAutoresizingMaskIntoConstraints="NO" id="hER-bZ-X6h">
+                                <rect key="frame" x="264" y="528" width="72" height="72"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="72" id="1QY-ZU-VRc"/>
+                                    <constraint firstAttribute="width" constant="72" id="ljy-pv-nfb"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Input knock code to unlock" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dio-Nm-k71">
+                                <rect key="frame" x="197" y="137" width="207" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="2Gu-N7-cpp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.46666666670000001" green="0.46666666670000001" blue="0.46666666670000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LockedLock" translatesAutoresizingMaskIntoConstraints="NO" id="p9f-wq-j6J">
+                                <rect key="frame" x="264" y="258" width="72" height="72"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="72" id="UvF-OG-uAp"/>
+                                    <constraint firstAttribute="height" constant="72" id="d76-XN-qQZ"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LOCKED" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lp3-e7-qhQ">
+                                <rect key="frame" x="250" y="97" width="100" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="3v8-ml-I0j"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="p9f-wq-j6J" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7IF-np-7EW"/>
+                            <constraint firstItem="hER-bZ-X6h" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="N33-15-M9U"/>
+                            <constraint firstItem="p9f-wq-j6J" firstAttribute="top" secondItem="dio-Nm-k71" secondAttribute="bottom" constant="100" id="Qra-9e-kr0"/>
+                            <constraint firstItem="dio-Nm-k71" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SfA-DW-b0G"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="hER-bZ-X6h" secondAttribute="bottom" id="gka-MA-HaM"/>
+                            <constraint firstItem="dio-Nm-k71" firstAttribute="top" secondItem="lp3-e7-qhQ" secondAttribute="bottom" constant="8" id="lch-jj-avf"/>
+                            <constraint firstItem="lp3-e7-qhQ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="77" id="p5y-3o-haZ"/>
+                            <constraint firstItem="lp3-e7-qhQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rD3-l3-ENG"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="pkx-7c-TyX" appends="YES" id="0XT-ZU-9rk"/>
+                        </connections>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="pkx-7c-TyX">
+                    <connections>
+                        <action selector="addNewKnock:" destination="BYZ-38-t0r" id="pZG-Si-6KB"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="282" y="368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="FingerTap" width="64" height="64"/>
+        <image name="LockedLock" width="64" height="64"/>
+    </resources>
+</document>
