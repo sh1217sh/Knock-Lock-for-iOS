@@ -5,7 +5,6 @@ Unlock your app with knock.
 This is an demo app. All files you need is in "KnockLock" folder. Use the demo app as a reference.
 
 ## License
-BE CAREFUL!!! Please note that there are two copyright holders.
 
 ##### For files inside "KnockLock" folder:
 The MIT License (MIT)
