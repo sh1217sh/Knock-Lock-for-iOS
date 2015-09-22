@@ -1,5 +1,6 @@
 # Knock-Lock-for-iOS
 Unlock your app with knock.
+Inspired by '[Secret Knock Detecting Door Lock](http://www.instructables.com/id/Secret-Knock-Detecting-Door-Lock/)' project by Steven Hoefer.
 
 ## How to use
 This is an demo app. All files you need is in "KnockLock" folder. Use the demo app as a reference.
