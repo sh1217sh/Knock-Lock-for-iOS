@@ -1,12 +1,13 @@
 # Knock-Lock-for-iOS
 Unlock your app with knock.
+Inspired by '[Secret Knock Detecting Door Lock](http://www.instructables.com/id/Secret-Knock-Detecting-Door-Lock/)' project by Steven Hoefer.
 
 ## How to use
 This is an demo app. All files you need is in "KnockLock" folder. Use the demo app as a reference.
 
 ## License
 
-##### For files inside "KnockLock" folder:
+##### For swift files inside "KnockLock" folder:
 The MIT License (MIT)
 
 Copyright © 2009 Steven Hoefer
@@ -18,7 +19,7 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
-##### For files outside of "KnockLock" folder:
+##### All other files:
 The MIT License (MIT)
 
 Copyright (C) 2015 Sung-ho Lee
