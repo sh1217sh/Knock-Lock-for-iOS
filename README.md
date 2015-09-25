@@ -2,6 +2,9 @@
 Unlock your app with knock.
 Inspired by '[Secret Knock Detecting Door Lock](http://www.instructables.com/id/Secret-Knock-Detecting-Door-Lock/)' project by Steven Hoefer.
 
+## Demo
+[Watch on Youtube](https://www.youtube.com/watch?v=IcRHkVDTCik)
+
 ## How to use
 This is an demo app. All files you need is in "KnockLock" folder. Use the demo app as a reference.
 
@@ -18,8 +21,7 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-
-##### All other files:
+##### Other files:
 The MIT License (MIT)
 
 Copyright (C) 2015 Sung-ho Lee
@@ -29,3 +31,9 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+## Donation
+I'm not a professional programmer. I don't earn much money by application development. I need your help. If you like this project, you can donate to me with Bitcoin.
+
+Address: 1NL1wZ2pgeyyvhAnh51YDaWwX34GoSFZA1
+![QR code](http://chart.apis.google.com/chart?chs=200x200&cht=qr&chld=|1&chl=1NL1wZ2pgeyyvhAnh51YDaWwX34GoSFZA1)
