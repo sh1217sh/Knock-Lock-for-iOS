@@ -19,8 +19,8 @@ class KnockAuthanticator {
     
     // MARK: - Constants
     
-    let REJECT_VALUE = 25
-    let AVERAGE_REJECT_VALUE = 15
+    let REJECT_VALUE = 15
+    let AVERAGE_REJECT_VALUE = 10
     
     // MARK: -
     
