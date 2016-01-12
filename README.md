@@ -33,7 +33,18 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## Donation
-I'm not a professional programmer. I don't earn much money by application development. I need your help. If you like this project, you can donate to me with Bitcoin.
+I'm not a professional programmer. I don't earn much money by application development. I need your help. If you like this project, you can donate to me with Paypal or Bitcoin.
 
-Address: 1NL1wZ2pgeyyvhAnh51YDaWwX34GoSFZA1
-![QR code](http://chart.apis.google.com/chart?chs=200x200&cht=qr&chld=|1&chl=1NL1wZ2pgeyyvhAnh51YDaWwX34GoSFZA1)
+#### Paypal
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="KRGC3AGNBUU9S">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/ko_KR/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+
+
+#### Bitcoin
+![QR code](http://chart.apis.google.com/chart?chs=200x200&cht=qr&chld=|1&chl=1NL1wZ2pgeyyvhAnh51YDaWwX34GoSFZA1)<br>
+1NL1wZ2pgeyyvhAnh51YDaWwX34GoSFZA1
