@@ -31,14 +31,3 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-## Donation
-I'm not a professional programmer. I don't earn much money by application development. I need your help. If you like this project, you can donate to me with Paypal or Bitcoin.
-
-#### Paypal
-https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KRGC3AGNBUU9S
-
-
-#### Bitcoin
-![QR code](http://chart.apis.google.com/chart?chs=200x200&cht=qr&chld=|1&chl=1NL1wZ2pgeyyvhAnh51YDaWwX34GoSFZA1)<br>
-1NL1wZ2pgeyyvhAnh51YDaWwX34GoSFZA1
